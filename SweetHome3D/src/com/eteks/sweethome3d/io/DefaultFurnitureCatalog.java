@@ -645,7 +645,7 @@ public class DefaultFurnitureCatalog extends FurnitureCatalog {
           resource, PropertyKey.DOOR_OR_WINDOW_WALL_DISTANCE.getKey(index), 0) / depth;
       Sash [] sashes = getDoorOrWindowSashes(resource, index, width, depth);
       return new CatalogDoorOrWindow(id, name, description, information, tags, creationDate, grade, 
-          icon, planIcon, model, width, depth, height, elevation, dropOnTopElevation, movable, 
+          icon, planIcon, model, width, depth, height, elevation, dropOnTopElevation, movable,
           doorOrWindowCutOutShape, wallThicknessPercentage, wallDistancePercentage, sashes,
           modelRotation, false, creator, resizable, deformable, texturable, price, valueAddedTaxPercentage, currency);
     } else {
